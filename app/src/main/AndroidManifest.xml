@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.kayeswap.shahajjo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="BLOOD BANK"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.kayeswap.bloodbank.Start">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+
+        <activity android:name="com.kayeswap.bloodbank.Welcome" />
+        <activity android:name="com.kayeswap.bloodbank.Donor_Reg" />
+        <activity android:name="com.kayeswap.bloodbank.Blood_Request" />
+        <activity android:name="com.kayeswap.bloodbank.AB_Positive" />
+        <activity android:name="com.kayeswap.bloodbank.B_Positive" />
+        <activity android:name="com.kayeswap.bloodbank.O_Positive" />
+        <activity android:name="com.kayeswap.bloodbank.Blood_Group" />
+        <activity android:name="com.kayeswap.bloodbank.Blood_Bank" />
+        <activity android:name="com.kayeswap.bloodbank.B_Negative" />
+        <activity android:name="com.kayeswap.bloodbank.O_Negative" />
+        <activity android:name="com.kayeswap.bloodbank.AB_Negative" />
+        <activity android:name="com.kayeswap.bloodbank.Blood_Reg_Page" />
+        <activity android:name="com.kayeswap.bloodbank.A_Negative" />
+        <activity android:name="com.kayeswap.bloodbank.A_Positive" />
+        <activity android:name="com.kayeswap.bloodbank.Agreement_User" />
+    </application>
+
+</manifest>
