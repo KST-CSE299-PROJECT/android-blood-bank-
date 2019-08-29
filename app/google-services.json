@@ -39,7 +39,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:41817243348:android:9e8fc291364b6548",
         "android_client_info": {
-          "package_name": "com.kayeswap.shahajjo"
+          "package_name":"com.kayeswap.bloodbank"
         }
       },
       "oauth_client": [
@@ -47,8 +47,16 @@
           "client_id": "41817243348-sgjrc12b28quhjevkpmegfqe4kgl03d2.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.kayeswap.shahajjo",
+            "package_name": "com.kayeswap.bloodbank",
             "certificate_hash": "f56ad24bb72d5d1eda4aeb0646a0d74828b5b90d"
+          }
+        },
+        {
+          "client_id": "41817243348-ithm40ss9pq6ead7dmof11s6n3ls6sf0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kayeswap.bloodbank",
+            "certificate_hash": "72b02a6872664d838f8d704d90ae9316a92ecbee"
           }
         },
         {
