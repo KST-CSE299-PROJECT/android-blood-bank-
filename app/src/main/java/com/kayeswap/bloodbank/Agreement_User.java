@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.kayeswap.shahajjo.R;
+import com.kayeswap.bloodbank.R;
 
 
 public class Agreement_User extends AppCompatActivity {
