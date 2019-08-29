@@ -16,7 +16,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
-import com.kayeswap.shahajjo.R;
+import com.kayeswap.blood bank.R;
 
 import java.util.ArrayList;
 
@@ -67,7 +67,7 @@ public class Blood_Request extends AppCompatActivity {
                     user = ds.getValue(Req_Model.class);
                     list.add("Name: " +user.getName()+ '\n' +"Phone: " + user.getPhone()+ '\n'
                             +"Blood Group: " +user.getBlood()+ '\n' +"Hospital: "+ user.getLocation()+
-                            '\n' +"Reletion: "+ user.getRelation()+ '\n' +"Problem: "+ user.getProblem()+
+                            '\n' +"Relation: "+ user.getRelation()+ '\n' +"Problem: "+ user.getProblem()+
                             '\n' +"When Need : "+ user.getTime()+ '\n' +"How Much Bag: "+ user.getHow());
                 }
                 listview.setAdapter(adapter);
